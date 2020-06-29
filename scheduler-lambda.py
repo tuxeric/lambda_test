@@ -9,3 +9,4 @@ logger.setLevel(logging.INFO)
 def lambda_handler(event, context):
     logging.info('Event:\n{}'.format(json.dumps(event, indent=4)))
     logging.info('so and so')
+    logging.info('testbr')
